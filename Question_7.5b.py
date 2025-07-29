@@ -210,7 +210,7 @@ def analyze_performance():
     game4 = TicTacToeMinimax()
     game4.board = [['X', 'O', 'X'],
                    ['X', 'O', ' '],
-                   [s'O', ' ', ' ']]
+                   ['O', ' ', ' ']]
     print("\n4. Near end-game - X to move:")
     game4.print_board()
     move, nodes = game4.get_best_move('X')
