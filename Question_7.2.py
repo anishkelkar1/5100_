@@ -336,25 +336,7 @@ def test_crypto_solver():
     print(f"Ciphertext: {ciphertext3}")
     print(f"Plaintext: {plaintext3}")
     print(f"Key: {key3}")
-    
-    # Limitations
-    print("\n" + "=" * 60)
-    print("LIMITATIONS OF THE PROGRAM")
-    print("=" * 60)
-    print("1. Limited to classical ciphers (Caesar, Substitution, Vigenere)")
-    print("2. Requires sufficient ciphertext length for frequency analysis")
-    print("3. Assumes English language plaintext")
-    print("4. Cannot handle modern encryption (AES, RSA, etc.)")
-    print("5. Substitution cipher solver may get stuck in local optima")
-    print("6. Vigenere solver assumes key length ≤ 20")
-    print("7. No support for polyalphabetic ciphers beyond Vigenere")
-    print("8. Cannot handle transposition ciphers")
-    print("\nHeuristics implemented:")
-    print("- Frequency analysis matching")
-    print("- Common bigram/trigram detection")
-    print("- Hill climbing with random restarts")
-    print("- Index of Coincidence for key length detection")
-    print("- Simulated annealing for escaping local optima")
+
 
 
 if __name__ == "__main__":
